@@ -25,13 +25,12 @@ This information will be used by Pewlett Hackard to plan for future business act
 ## Results
 ### Employee Impact 
 [Retirement Titles](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/Retirement_titles.csv)
-[Unique Titles] (https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/unique_titles.csv
 - The total number of employees that are eligible to retire:  
--- The initial filtering of records returned 133776 records. However, this overinflates the numbers of retirement eligible employees.  
--- Further filtering of records for active employees and their current title returned 72458 records.  (a 54.2% reduction in records)
--- This filtering accounts for: 
---- People being promoted or changing roles during their tenure with Pewlett Hackard 
---- People who have previously separated from the company 
+  - The initial filtering of records returned 133776 records. However, this overinflates the numbers of retirement eligible employees.  
+- Further filtering of records for active employees and their current title returned 72458 records.  (a 54.2% reduction in records)
+  This filtering accounts for: 
+  - People being promoted or changing roles during their tenure with Pewlett Hackard 
+  - People who have previously separated from the company 
 
 ### Title Impact 
 [Retiring Titles](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/retiring_titles.csv)
