@@ -66,6 +66,7 @@ The impact of departing staff will vary by departments.  Some will be able to re
 
 ### Financial Implications 
 [Retiring Salaries](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/retirement_salaries.csv)
+
 One thing that should be considered as part of retirement mitigation planning is the total amount of salaries that will be no longer paid to employees that retire.  Adding the sum of current salaries to the count of titles that are retiring shows the following: 
 
 |Title|Count|Salary|AVG Salary|
