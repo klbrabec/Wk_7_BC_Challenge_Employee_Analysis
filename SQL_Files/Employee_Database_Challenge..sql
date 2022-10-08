@@ -75,7 +75,7 @@ INNER JOIN titles as t
 	ON  e.emp_no = t.emp_no
 INNER JOIN dept_emp as d
 	ON e.emp_no = d.emp_no
-WHERE e.birth_date BETWEEN '1965-01-01' AND '1965-12-31'
+WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31') AND t.to_date = '9999-01-01'
 ORDER BY e.emp_no;
 
 --D2 - Query is written and executed to create a Mentorship eligiblity table for current employees who were born between 1/1/65 and 12/31/65
