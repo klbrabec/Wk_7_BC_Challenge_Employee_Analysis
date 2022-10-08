@@ -18,6 +18,7 @@ This data was reviewed to provide the following:
 - Employees eligible to be considered for mentorship 
 
 Queries used to determine this information can be found in this file: 
+
 See: [Employee Database Challenge](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/SQL_Files/Employee_Database_Challenge..sql)
 
 The information generated from these queries will be used by Pewlett Hackard to plan for future business activities. 
@@ -48,7 +49,7 @@ The total number of employees by title eligible for retirement:
 |Manager|2|
 
 ### Mentorship Planning 
-see: [Mentorship Eligibility](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/mentorship_eligibility.csv)
+See: [Mentorship Eligibility](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/mentorship_eligibility.csv)
 - The total number of employees eligilble to participate in the proposed mentorship program is: 1940
 
 
@@ -85,7 +86,9 @@ It is understood that these salaries are due to the time employees have worked w
 
 ### Expanding Mentorship Program 
 See:  [Expanded Mentorship Program](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/expanded_membership_eligibility.csv)
+
 See:  [Mentorship Program Excluding Expanded Retirement Range](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/retiring_mentorship_eligibility.csv)
+
 The current mentorship program eligiblity includes employees who were born in 1965.  This subset includes 1940 employees, or approximately 1% of the entire employee populated.  It is shortsighted to only equip employees of a certain age range with the tools to adapt to the loss of a significant portion of the employee population, as team members continue to age and retire, the organization will continue to deal with knowledge loss.  
 
 It is recommended to modify the mentorship program to target people by hire date rather than birth date. For example, modifying the selection criteria to include employees hired between 1985 and 1995, that are not part of the retirement target group, 155943 employees become eligible for mentorship.  In order to accomodate the employees that are within 3 years of retirement, expanding the birth date range to 1958 reduces the number of eligible employees to 104372, which is still substantial.  (It is recommended that the employees in the expanded retirement age group be consulted to become mentors as well)
