@@ -18,13 +18,13 @@ This data was reviewed to provide the following:
 - Employees eligible to be considered for mentorship 
 
 Queries used to determine this information can be found in this file: 
-[Employee Database Challenge] (https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/SQL_Files/Employee_Database_Challenge..sql)
+See: [Employee Database Challenge](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/SQL_Files/Employee_Database_Challenge..sql)
 
-This information will be used by Pewlett Hackard to plan for future business activities. 
+The information generated from these queries will be used by Pewlett Hackard to plan for future business activities. 
 
 ## Results
 ### Employee Impact 
-[Retirement Titles](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/Retirement_titles.csv)
+See: [Retirement Titles](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/Retirement_titles.csv)
 - The total number of employees that are eligible to retire:  
   - The initial filtering of records returned 133776 records. However, this overinflates the numbers of retirement eligible employees.  
 - Further filtering of records for active employees and their current title returned 72458 records.  (a 54.2% reduction in records)
@@ -33,8 +33,9 @@ This information will be used by Pewlett Hackard to plan for future business act
   - People who have previously separated from the company 
 
 ### Title Impact 
-[Retiring Titles](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/retiring_titles.csv)
-- The total number of titles eligible for retirement: 
+See: [Retiring Titles](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/retiring_titles.csv)
+
+The total number of employees by title eligible for retirement: 
 
 |Title|Count|
 |---|---|
@@ -46,8 +47,8 @@ This information will be used by Pewlett Hackard to plan for future business act
 |Assistant Engineer|1090|
 |Manager|2|
 
-## Mentorship Planning 
-[Mentorship Eligibility](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/mentorship_eligibility.csv)
+### Mentorship Planning 
+see: [Mentorship Eligibility](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/mentorship_eligibility.csv)
 - The total number of employees eligilble to participate in the proposed mentorship program is: 1940
 
 
@@ -65,7 +66,7 @@ Currently, there are 1940 employees that have been identified as being eligible 
 The impact of departing staff will vary by departments.  Some will be able to redirect team activities to function in a more streamlined manner.  Some could be folded into other teams to combine work on common projects.  However, it is important to realize that the departure of team members, even when voluntary will cause a negative impact on overall team morale.    This can be done by allowing retiring employees to 'phase out' of their role, by stepping down from more high pressure, high profile roles into more 'support' roles. This can also facilitate the knowledge transfer and retention goals in the mentorship program.  It is recommended that at least 50% of all roles that are vacated through retirement are backfilled, with the understanding that restructuring teams and business groups may also allow for new business models. 
 
 ### Financial Implications 
-[Retiring Salaries](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/retirement_salaries.csv)
+See: [Retiring Salaries](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/retirement_salaries.csv)
 
 One thing that should be considered as part of retirement mitigation planning is the total amount of salaries that will be no longer paid to employees that retire.  Adding the sum of current salaries to the count of titles that are retiring shows the following: 
 
@@ -83,6 +84,8 @@ One thing that should be considered as part of retirement mitigation planning is
 It is understood that these salaries are due to the time employees have worked with the organization.  A portion of these savings will be put into salaries of new employees, however it is recommended that some should also be earmarked for training and staff improvement plans to mitigate the institutional knowledge loss.  
 
 ### Expanding Mentorship Program 
+See:  [Expanded Mentorship Program](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/expanded_membership_eligibility.csv)
+See:  [Mentorship Program Excluding Expanded Retirement Range](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/retiring_mentorship_eligibility.csv)
 The current mentorship program eligiblity includes employees who were born in 1965.  This subset includes 1940 employees, or approximately 1% of the entire employee populated.  It is shortsighted to only equip employees of a certain age range with the tools to adapt to the loss of a significant portion of the employee population, as team members continue to age and retire, the organization will continue to deal with knowledge loss.  
 
 It is recommended to modify the mentorship program to target people by hire date rather than birth date. For example, modifying the selection criteria to include employees hired between 1985 and 1995, that are not part of the retirement target group, 155943 employees become eligible for mentorship.  In order to accomodate the employees that are within 3 years of retirement, expanding the birth date range to 1958 reduces the number of eligible employees to 104372, which is still substantial.  (It is recommended that the employees in the expanded retirement age group be consulted to become mentors as well)
