@@ -50,7 +50,7 @@ The total number of employees by title eligible for retirement:
 
 ### Mentorship Planning 
 See: [Mentorship Eligibility](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/mentorship_eligibility.csv)
-- The total number of employees eligilble to participate in the proposed mentorship program is: 1940
+- The total number of employees eligilble to participate in the proposed mentorship program is: 1549
 
 
 ## Summary 
@@ -61,7 +61,7 @@ Employees with a birthdate between 1952 and 1955 are considered eligible for ret
 The larger number of titles that are eligible for retirement are in the 'senior' category (Senior Engineer -25916 and Senior Staff - 24926)  There is a substantial amount of 'institutional knowledge' that will be lost when these team members depart, and they should all be encouraged to participate in the mentorship program to pass that knowledge on to team members who will remain.  However, knowing that participation in these coaching programs is not something that everyone is comfortable with, alternative methods of knowledge documentation and transfer should be considered to enable a smoother transition. 
 
 ### Mentorship Program 
-Currently, there are 1940 employees that have been identified as being eligible to participate in the mentorship program being developed.  However, there are considerably more employees that are eligible for retirement.  The organization may want to consider expanding the eligibility definition for the mentorship program in order to enable more employees to step into the roles vacated by retiring team members.  
+Currently, there are 1549 employees that have been identified as being eligible to participate in the mentorship program being developed. (less than 1% of the total employee population) However, there are considerably more employees that are eligible for retirement.  The organization may want to consider expanding the eligibility definition for the mentorship program in order to enable more employees to step into the roles vacated by retiring team members.  
 
 ### Staffing Impact 
 The impact of departing staff will vary by departments.  Some will be able to redirect team activities to function in a more streamlined manner.  Some could be folded into other teams to combine work on common projects.  However, it is important to realize that the departure of team members, even when voluntary will cause a negative impact on overall team morale.    This can be done by allowing retiring employees to 'phase out' of their role, by stepping down from more high pressure, high profile roles into more 'support' roles. This can also facilitate the knowledge transfer and retention goals in the mentorship program.  It is recommended that at least 50% of all roles that are vacated through retirement are backfilled either from internal promotions or external hiring, with the understanding that restructuring teams and business groups may also allow for new business models. 
@@ -91,7 +91,7 @@ See:  [Expanded Mentorship Program](https://github.com/klbrabec/Wk_7_BC_Challeng
 
 See:  [Mentorship Program Excluding Expanded Retirement Range](https://github.com/klbrabec/Wk_7_BC_Challenge_Employee_Analysis/blob/main/data_files/retiring_mentorship_eligibility.csv)
 
-The current mentorship program eligiblity includes employees who were born in 1965.  This subset includes 1940 employees, or approximately 1% of the entire employee populated.  It is shortsighted to only equip employees of a certain age range with the tools to adapt to the loss of a significant portion of the employee population, as team members continue to age and retire, the organization will continue to deal with knowledge loss.  
+The current mentorship program eligiblity includes employees who were born in 1965.  This subset includes 1549 employees, or less than 1% of the entire employee population.  It is shortsighted to only equip employees of a certain age range with the tools to adapt to the loss of a significant portion of the staff, as team members continue to age and retire, the organization will continue to deal with knowledge loss.  
 
 It is recommended to modify the mentorship program to target people by hire date rather than birth date. For example, modifying the selection criteria to include employees hired between 1985 and 1995, that are not part of the retirement target group, 155943 employees become eligible for mentorship.  In order to accomodate the employees that are within 3 years of retirement, expanding the birth date range to 1958 reduces the number of eligible employees to 104372, which is still substantial.  (It is recommended that the employees in the expanded retirement age group be consulted to become mentors as well)
 
